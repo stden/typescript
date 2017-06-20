@@ -4,6 +4,8 @@ node_js:
 - '6.10.3'
 - '7.10.0'
 before_install:
-- npm install -g typescript@2.3.4
+# - npm install -g typescript@2.3.4
+- yarn install
 script:
-- npm test
+# - npm test
+- yarn run jest
