@@ -1,0 +1,46 @@
+{
+  "private": true,
+  "name": "learn-typescript",
+  "version": "0.0.2",
+  "description": "Learn TypeScript use in node.js",
+  "main": "index.js",
+  "scripts": {
+    "test": "tsc index.ts --module commonjs; node ./index"
+  },
+  "keywords": [
+    "typescript",
+    "node"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DefinitelyTyped/definitelytyped.github.io.git"
+  },
+  "author": {
+    "name": "Denis Stepulenok",
+    "url": "https://github.com/stden"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "@types/jest": "^20.0.1",
+    "@types/node": "^8.0.0",
+    "bluebird": "^1.2.4",
+    "jest": "^20.0.4",
+    "ts-jest": "^20.0.6",
+    "typescript": "^2.3.4"
+  },
+  "dependencies": {
+    "xregexp": "^2.0.0"
+  },
+  "jest": {
+    "transform": {
+      "^.+\\.tsx?$": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "json"
+    ]
+  }
+}

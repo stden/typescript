@@ -57,3 +57,9 @@ typings/
 # dotenv environment variables file
 .env
 
+# Ignore Idea project files
+.idea
+
+# Ignore compiled from TypeScript JavaScript's files
+*.js
+*.js.map
