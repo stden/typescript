@@ -1,0 +1,9 @@
+[tools]
+yarn = "1"
+node = "24.22.2"
+
+[tasks.check]
+run = "git diff --check"
+
+[tasks.test]
+run = "yarn run test"
